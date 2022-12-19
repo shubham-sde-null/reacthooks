@@ -1,0 +1,33 @@
+.useReducer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.useReducer input {
+    min-width: 30vw;
+    width: fit-content;
+    height: 5vh;
+    outline: none;
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+}
+
+.useReducer button {
+    width: fit-content;
+    height: 5vh;
+    background-color: rgb(5, 196, 107);
+    padding: 0 1rem;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+    margin-left: 1rem;
+}
+
+.useReducer button:hover {
+    cursor: pointer;
+}

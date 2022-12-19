@@ -1,0 +1,23 @@
+.useImperative {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.useImperative button {
+    min-width: 15rem;
+    width: fit-content;
+    border-radius: 1rem;
+    background-color: #f79f1f;
+    height: 2.5rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+button:hover {
+    cursor: pointer;
+}

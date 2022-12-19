@@ -1,0 +1,27 @@
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button {
+    background-color: #d980fa;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button span {
+    background-color: #a3cb38;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}

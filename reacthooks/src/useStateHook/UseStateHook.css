@@ -1,0 +1,36 @@
+.counter {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border: 0.5px solid black;
+    width: 500px;
+    height: 200px;
+    border-radius: 1rem;
+}
+
+.counter1 h1 {
+    background-color: #a5b1c2;
+    width: fit-content;
+    padding: 0 1rem;
+}
+
+.counter1 button {
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    padding: 0 1rem;
+}
+
+.counter1 button:hover {
+    background-color: #26de81;
+    cursor: pointer;
+}

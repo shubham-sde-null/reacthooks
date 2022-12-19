@@ -1,0 +1,28 @@
+.useMemo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.useMemo input,
+.useMemo div,
+.useMemo button {
+    min-width: 200px;
+    height: 50px;
+    width: fit-content;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: 0.5px solid grey;
+    padding-left: 0.5rem;
+}
+
+.useMemo button {
+    background-color: #fbc531;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}

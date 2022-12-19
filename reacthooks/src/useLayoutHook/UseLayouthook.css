@@ -1,0 +1,20 @@
+.useLayout {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+}
+
+.useLayout input {
+    width: 20rem;
+    height: 2rem;
+    outline: none;
+    border-radius: 1rem;
+    /* padding-left: 1rem; */
+    background-color: #d980fa;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-align: center;
+}

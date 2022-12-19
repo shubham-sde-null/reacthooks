@@ -1,0 +1,28 @@
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.timer h1 {
+    border: 0.5px solid black;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.timer span {
+    background-color: rgb(255, 94, 87);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.timer button {
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    margin: 0.5rem 0rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+}
